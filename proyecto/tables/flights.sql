@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS flights (
+    year INT,
+    month INT,
+    day INT,
+    dep_time FLOAT,
+    sched_dep_time INT,
+    dep_delay FLOAT,
+    arr_time FLOAT,
+    sched_arr_time INT,
+    arr_delay FLOAT,
+    carrier VARCHAR(5),
+    flight INT,
+    tailnum VARCHAR(10),
+    origin VARCHAR(5),
+    dest VARCHAR(5),
+    air_time FLOAT,
+    distance INT,
+    hour INT,
+    minute INT,
+    time_hour TIMESTAMP
+);
